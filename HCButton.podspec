@@ -10,10 +10,7 @@ Pod::Spec.new do |s|
   s.source_files = 'HCButton/*.{h,m}'
   s.requires_arc = true
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.resource_bundles = {
-    'HCButton' => [
-        'HCButton/HCButton.bundle/images/*'
-    ]
-  }
+  s.resource_bundle = { 'HCButton' => 'HCButton.bundle/**' }
+
   s.dependency  'ReactiveCocoa', '2.5'
 end
