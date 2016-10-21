@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "Functional button implementation."
   s.homepage     = "https://github.com/hcrub/HCButton"
   s.author       = { "Neil Burchfield" => "neil.burchfield@gmail.com" }
-  s.source       = { :git => "git", :tag => version }
+  s.source       = { :git => "https://github.com/hcrub/HCButton.git", :tag => version }
   s.platform     = :ios, '8.0'
   s.source_files = 'HCButton/*.{h,m}'
   s.requires_arc = true
