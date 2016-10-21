@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		774BFB301DB9BD31003FBC8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB2F1DB9BD31003FBC8B /* main.m */; };
-		774BFB331DB9BD31003FBC8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB321DB9BD31003FBC8B /* AppDelegate.m */; };
-		774BFB361DB9BD31003FBC8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB351DB9BD31003FBC8B /* ViewController.m */; };
-		774BFB391DB9BD31003FBC8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774BFB371DB9BD31003FBC8B /* Main.storyboard */; };
-		774BFB3B1DB9BD31003FBC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774BFB3A1DB9BD31003FBC8B /* Assets.xcassets */; };
-		774BFB3E1DB9BD31003FBC8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774BFB3C1DB9BD31003FBC8B /* LaunchScreen.storyboard */; };
 		774BFB491DB9BD31003FBC8B /* HCButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB481DB9BD31003FBC8B /* HCButtonTests.m */; };
 		774BFB541DB9BD31003FBC8B /* HCButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB531DB9BD31003FBC8B /* HCButtonUITests.m */; };
+		774BFB6E1DB9BD53003FBC8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB641DB9BD53003FBC8B /* AppDelegate.m */; };
+		774BFB6F1DB9BD53003FBC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774BFB651DB9BD53003FBC8B /* Assets.xcassets */; };
+		774BFB701DB9BD53003FBC8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774BFB661DB9BD53003FBC8B /* LaunchScreen.storyboard */; };
+		774BFB711DB9BD53003FBC8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774BFB681DB9BD53003FBC8B /* Main.storyboard */; };
+		774BFB721DB9BD53003FBC8B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 774BFB6A1DB9BD53003FBC8B /* Info.plist */; };
+		774BFB731DB9BD53003FBC8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB6B1DB9BD53003FBC8B /* main.m */; };
+		774BFB741DB9BD53003FBC8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB6D1DB9BD53003FBC8B /* ViewController.m */; };
+		774BFB771DB9BD62003FBC8B /* HCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 774BFB761DB9BD62003FBC8B /* HCButton.m */; };
+		774BFB791DB9BF27003FBC8B /* HCButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 774BFB781DB9BF27003FBC8B /* HCButton.bundle */; };
+		7D480154FC6E043BE9790B73 /* libPods-HCButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3674B6C07AC86047D1A99EAF /* libPods-HCButton.a */; };
+		AB2B78A25F6AE40B99CF2035 /* libPods-HCButtonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D2249F123771F7CB3C868F /* libPods-HCButtonTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +40,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		239C559C61CC31C5621F90C3 /* Pods-HCButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCButton.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCButton/Pods-HCButton.release.xcconfig"; sourceTree = "<group>"; };
+		3674B6C07AC86047D1A99EAF /* libPods-HCButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HCButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DF5944A0425448F081498A /* Pods-HCButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCButton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCButton/Pods-HCButton.debug.xcconfig"; sourceTree = "<group>"; };
+		47D2249F123771F7CB3C868F /* libPods-HCButtonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HCButtonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		774BFB2B1DB9BD31003FBC8B /* HCButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		774BFB2F1DB9BD31003FBC8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		774BFB311DB9BD31003FBC8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		774BFB321DB9BD31003FBC8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		774BFB341DB9BD31003FBC8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		774BFB351DB9BD31003FBC8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		774BFB381DB9BD31003FBC8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		774BFB3A1DB9BD31003FBC8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		774BFB3D1DB9BD31003FBC8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		774BFB3F1DB9BD31003FBC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		774BFB441DB9BD31003FBC8B /* HCButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		774BFB481DB9BD31003FBC8B /* HCButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCButtonTests.m; sourceTree = "<group>"; };
 		774BFB4A1DB9BD31003FBC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		774BFB4F1DB9BD31003FBC8B /* HCButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		774BFB531DB9BD31003FBC8B /* HCButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCButtonUITests.m; sourceTree = "<group>"; };
 		774BFB551DB9BD31003FBC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		774BFB631DB9BD53003FBC8B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		774BFB641DB9BD53003FBC8B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		774BFB651DB9BD53003FBC8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		774BFB671DB9BD53003FBC8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		774BFB691DB9BD53003FBC8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		774BFB6A1DB9BD53003FBC8B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		774BFB6B1DB9BD53003FBC8B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		774BFB6C1DB9BD53003FBC8B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		774BFB6D1DB9BD53003FBC8B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		774BFB751DB9BD62003FBC8B /* HCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCButton.h; sourceTree = "<group>"; };
+		774BFB761DB9BD62003FBC8B /* HCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCButton.m; sourceTree = "<group>"; };
+		774BFB781DB9BF27003FBC8B /* HCButton.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HCButton.bundle; sourceTree = "<group>"; };
+		AB3A09224DF15924BDF6D21D /* Pods-HCButtonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCButtonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HCButtonTests/Pods-HCButtonTests.release.xcconfig"; sourceTree = "<group>"; };
+		B9EEE656D74533D38D0F2437 /* Pods-HCButtonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HCButtonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HCButtonTests/Pods-HCButtonTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D480154FC6E043BE9790B73 /* libPods-HCButton.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2B78A25F6AE40B99CF2035 /* libPods-HCButtonTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +97,13 @@
 		774BFB221DB9BD31003FBC8B = {
 			isa = PBXGroup;
 			children = (
-				774BFB2D1DB9BD31003FBC8B /* HCButton */,
+				774BFB611DB9BD53003FBC8B /* HCButton */,
+				774BFB621DB9BD53003FBC8B /* HCButtonExample */,
 				774BFB471DB9BD31003FBC8B /* HCButtonTests */,
 				774BFB521DB9BD31003FBC8B /* HCButtonUITests */,
 				774BFB2C1DB9BD31003FBC8B /* Products */,
+				EEF652D737BE7EE5C3CC3F3B /* Pods */,
+				CCDF7C3C08176C782A8CA483 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,30 +115,6 @@
 				774BFB4F1DB9BD31003FBC8B /* HCButtonUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		774BFB2D1DB9BD31003FBC8B /* HCButton */ = {
-			isa = PBXGroup;
-			children = (
-				774BFB311DB9BD31003FBC8B /* AppDelegate.h */,
-				774BFB321DB9BD31003FBC8B /* AppDelegate.m */,
-				774BFB341DB9BD31003FBC8B /* ViewController.h */,
-				774BFB351DB9BD31003FBC8B /* ViewController.m */,
-				774BFB371DB9BD31003FBC8B /* Main.storyboard */,
-				774BFB3A1DB9BD31003FBC8B /* Assets.xcassets */,
-				774BFB3C1DB9BD31003FBC8B /* LaunchScreen.storyboard */,
-				774BFB3F1DB9BD31003FBC8B /* Info.plist */,
-				774BFB2E1DB9BD31003FBC8B /* Supporting Files */,
-			);
-			path = HCButton;
-			sourceTree = "<group>";
-		};
-		774BFB2E1DB9BD31003FBC8B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				774BFB2F1DB9BD31003FBC8B /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		774BFB471DB9BD31003FBC8B /* HCButtonTests */ = {
@@ -140,6 +135,52 @@
 			path = HCButtonUITests;
 			sourceTree = "<group>";
 		};
+		774BFB611DB9BD53003FBC8B /* HCButton */ = {
+			isa = PBXGroup;
+			children = (
+				774BFB781DB9BF27003FBC8B /* HCButton.bundle */,
+				774BFB751DB9BD62003FBC8B /* HCButton.h */,
+				774BFB761DB9BD62003FBC8B /* HCButton.m */,
+			);
+			path = HCButton;
+			sourceTree = "<group>";
+		};
+		774BFB621DB9BD53003FBC8B /* HCButtonExample */ = {
+			isa = PBXGroup;
+			children = (
+				774BFB631DB9BD53003FBC8B /* AppDelegate.h */,
+				774BFB641DB9BD53003FBC8B /* AppDelegate.m */,
+				774BFB651DB9BD53003FBC8B /* Assets.xcassets */,
+				774BFB661DB9BD53003FBC8B /* LaunchScreen.storyboard */,
+				774BFB681DB9BD53003FBC8B /* Main.storyboard */,
+				774BFB6A1DB9BD53003FBC8B /* Info.plist */,
+				774BFB6B1DB9BD53003FBC8B /* main.m */,
+				774BFB6C1DB9BD53003FBC8B /* ViewController.h */,
+				774BFB6D1DB9BD53003FBC8B /* ViewController.m */,
+			);
+			path = HCButtonExample;
+			sourceTree = "<group>";
+		};
+		CCDF7C3C08176C782A8CA483 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3674B6C07AC86047D1A99EAF /* libPods-HCButton.a */,
+				47D2249F123771F7CB3C868F /* libPods-HCButtonTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEF652D737BE7EE5C3CC3F3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38DF5944A0425448F081498A /* Pods-HCButton.debug.xcconfig */,
+				239C559C61CC31C5621F90C3 /* Pods-HCButton.release.xcconfig */,
+				B9EEE656D74533D38D0F2437 /* Pods-HCButtonTests.debug.xcconfig */,
+				AB3A09224DF15924BDF6D21D /* Pods-HCButtonTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 774BFB581DB9BD31003FBC8B /* Build configuration list for PBXNativeTarget "HCButton" */;
 			buildPhases = (
+				D8A364033F10C72D014442F4 /* [CP] Check Pods Manifest.lock */,
 				774BFB271DB9BD31003FBC8B /* Sources */,
 				774BFB281DB9BD31003FBC8B /* Frameworks */,
 				774BFB291DB9BD31003FBC8B /* Resources */,
+				783E7770F152E77CB3E4FF04 /* [CP] Embed Pods Frameworks */,
+				30BD287131585BCE1C563694 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 774BFB5B1DB9BD31003FBC8B /* Build configuration list for PBXNativeTarget "HCButtonTests" */;
 			buildPhases = (
+				8BB4920DFDF86A6C3D4E68AE /* [CP] Check Pods Manifest.lock */,
 				774BFB401DB9BD31003FBC8B /* Sources */,
 				774BFB411DB9BD31003FBC8B /* Frameworks */,
 				774BFB421DB9BD31003FBC8B /* Resources */,
+				186B890C64952FB88B70303C /* [CP] Embed Pods Frameworks */,
+				D3289DB73010E1B16624BB31 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,9 +296,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				774BFB3E1DB9BD31003FBC8B /* LaunchScreen.storyboard in Resources */,
-				774BFB3B1DB9BD31003FBC8B /* Assets.xcassets in Resources */,
-				774BFB391DB9BD31003FBC8B /* Main.storyboard in Resources */,
+				774BFB721DB9BD53003FBC8B /* Info.plist in Resources */,
+				774BFB711DB9BD53003FBC8B /* Main.storyboard in Resources */,
+				774BFB791DB9BF27003FBC8B /* HCButton.bundle in Resources */,
+				774BFB6F1DB9BD53003FBC8B /* Assets.xcassets in Resources */,
+				774BFB701DB9BD53003FBC8B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +320,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		186B890C64952FB88B70303C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCButtonTests/Pods-HCButtonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30BD287131585BCE1C563694 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCButton/Pods-HCButton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		783E7770F152E77CB3E4FF04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCButton/Pods-HCButton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BB4920DFDF86A6C3D4E68AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3289DB73010E1B16624BB31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HCButtonTests/Pods-HCButtonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8A364033F10C72D014442F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		774BFB271DB9BD31003FBC8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				774BFB361DB9BD31003FBC8B /* ViewController.m in Sources */,
-				774BFB331DB9BD31003FBC8B /* AppDelegate.m in Sources */,
-				774BFB301DB9BD31003FBC8B /* main.m in Sources */,
+				774BFB771DB9BD62003FBC8B /* HCButton.m in Sources */,
+				774BFB741DB9BD53003FBC8B /* ViewController.m in Sources */,
+				774BFB731DB9BD53003FBC8B /* main.m in Sources */,
+				774BFB6E1DB9BD53003FBC8B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,20 +457,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		774BFB371DB9BD31003FBC8B /* Main.storyboard */ = {
+		774BFB661DB9BD53003FBC8B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				774BFB381DB9BD31003FBC8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		774BFB3C1DB9BD31003FBC8B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				774BFB3D1DB9BD31003FBC8B /* Base */,
+				774BFB671DB9BD53003FBC8B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		774BFB681DB9BD53003FBC8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				774BFB691DB9BD53003FBC8B /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -425,10 +568,11 @@
 		};
 		774BFB591DB9BD31003FBC8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DF5944A0425448F081498A /* Pods-HCButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UVS6Y7N82D;
-				INFOPLIST_FILE = HCButton/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HCButtonExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcrub.HCButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,10 +581,11 @@
 		};
 		774BFB5A1DB9BD31003FBC8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239C559C61CC31C5621F90C3 /* Pods-HCButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UVS6Y7N82D;
-				INFOPLIST_FILE = HCButton/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HCButtonExample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcrub.HCButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,6 +594,7 @@
 		};
 		774BFB5C1DB9BD31003FBC8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EEE656D74533D38D0F2437 /* Pods-HCButtonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = UVS6Y7N82D;
@@ -462,6 +608,7 @@
 		};
 		774BFB5D1DB9BD31003FBC8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3A09224DF15924BDF6D21D /* Pods-HCButtonTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = UVS6Y7N82D;
@@ -516,6 +663,7 @@
 				774BFB5A1DB9BD31003FBC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		774BFB5B1DB9BD31003FBC8B /* Build configuration list for PBXNativeTarget "HCButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +672,7 @@
 				774BFB5D1DB9BD31003FBC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		774BFB5E1DB9BD31003FBC8B /* Build configuration list for PBXNativeTarget "HCButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +681,7 @@
 				774BFB601DB9BD31003FBC8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

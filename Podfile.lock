@@ -1,0 +1,30 @@
+PODS:
+  - HCComponents (0.0.1)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - HCComponents (from `https://github.com/hcrub/HCComponents.git`)
+  - ReactiveCocoa (= 2.5)
+
+EXTERNAL SOURCES:
+  HCComponents:
+    :git: https://github.com/hcrub/HCComponents.git
+
+CHECKOUT OPTIONS:
+  HCComponents:
+    :commit: 6b18232f7b878a2eef4ae10f08a0c1f96190ba11
+    :git: https://github.com/hcrub/HCComponents.git
+
+SPEC CHECKSUMS:
+  HCComponents: d88d6b452a9e695dd5ffacd6aa8ae84e7085956a
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+
+PODFILE CHECKSUM: 731965c9d1922afb774f0a89695481512aece6c1
+
+COCOAPODS: 1.0.1
