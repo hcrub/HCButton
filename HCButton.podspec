@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
     ]
   }
   s.dependency  'ReactiveCocoa', '2.5'
+  s.dependency  'HCComponents'
 end
