@@ -240,7 +240,7 @@
         imageName = @"hc_button_twitter";
     }
     
-    NSString *const imagePath = [bundle pathForResource:imageName ofType:@"png" inDirectory:@"images"];
+    NSString *const imagePath = [bundle pathForResource:imageName ofType:@"png"];
     [self setImage:[UIImage imageWithContentsOfFile:imagePath] forState:UIControlStateNormal];
     [self setTitle:title forState:UIControlStateNormal];
     
