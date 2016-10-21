@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.resource_bundles = {
     'HCButton' => [
-        'Pod/**'
+        'HCButton/HCButton.bundle/images/*'
     ]
   }
   s.dependency  'ReactiveCocoa', '2.5'
